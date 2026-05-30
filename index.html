@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>Cashly — Free Money Tracker for iOS & Android</title>
+  <meta name="description" content="" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Cashly " />
+  <meta property="og:description" content="The free alternative to every paid money tracker. Install instantly on iOS & Android." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ── Navigation ──────────────────────────────────────────────────── -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+        <rect width="32" height="32" rx="8" fill="#22c55e" fill-opacity="0.12"/>
+        <path d="M16 6V26" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+        <path d="M21 11.5C21 9.567 18.761 8 16 8C13.239 8 11 9.567 11 11.5C11 13.433 13.239 15 16 15C18.761 15 21 16.567 21 18.5C21 20.433 18.761 22 16 22C13.239 22 11 20.433 11 18.5" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Cashly</span>
+    </a>
+    <a href="#install" class="btn btn-primary" style="height:2.25rem;padding:0 1.1rem;font-size:0.85rem">Get the App</a>
+  </div>
+</nav>
+
+<!-- ── Hero ────────────────────────────────────────────────────────── -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h1 id="hero-heading" class="fade-up">
+          <span class="line1"></span><span class="cursor cursor1"></span><br>
+          <span class="text-gradient-green line2" style="position:relative;display:inline-block">
+            <span></span>
+            <span class="cursor cursor2" style="display:none"></span>
+            <span class="underline" style="position:absolute;bottom:-6px;left:0;width:100%;height:4px;background:rgba(34,197,94,0.4);filter:blur(3px);border-radius:4px;opacity:0;transition:opacity 0.6s ease"></span>
+          </span>
+        </h1>
+
+        <p class="hero-sub fade-up delay-1">The free alternative to every paid money tracker. Clean, personal finance — zero cost, zero BS.</p>
+
+        <div class="hero-buttons fade-up delay-2">
+          <a href="#install" class="btn btn-primary btn-lg">
+            Download Free
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#install" class="btn btn-outline btn-lg">How it works</a>
+        </div>
+
+        <div class="hero-stats fade-up delay-3">
+          <div>
+            <div class="stat-num">$<span data-count="0">0</span></div>
+            <div class="stat-label">Monthly fee</div>
+          </div>
+          <div>
+            <div class="stat-num"><span data-count="100">0</span>%</div>
+            <div class="stat-label">Ad-free</div>
+          </div>
+          <div>
+            <div class="stat-num"><span data-count="0">0</span></div>
+            <div class="stat-label">Hidden limits</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-phone-wrap">
+        <div class="hero-glow"></div>
+        <div class="phone-float phone-secondary" style="position:absolute;right:0;top:8%">
+          <div class="phone-notch"></div>
+          <img src="app-transaction.png" alt="Transactions" />
+        </div>
+        <div class="phone-float phone-main">
+          <div class="phone-notch"></div>
+          <img src="app-home.png" alt="Cashly Home" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Screenshots Strip ───────────────────────────────────────────── -->
+<section id="screenshots">
+  <h2 class="fade-up">Every screen, crafted.</h2>
+  <div class="screenshots-scroll">
+    <div class="screenshot-card fade-up delay-1"><img src="app-splash.png" alt="Splash" /><p class="screenshot-label">Welcome</p></div>
+    <div class="screenshot-card fade-up delay-2"><img src="app-home.png" alt="Home" /><p class="screenshot-label">Home</p></div>
+    <div class="screenshot-card fade-up delay-3"><img src="app-transaction.png" alt="Add Transaction" /><p class="screenshot-label">Add Transaction</p></div>
+    <div class="screenshot-card fade-up delay-4"><img src="app-analytics.png" alt="Analytics" /><p class="screenshot-label">Analytics</p></div>
+    <div class="screenshot-card fade-up delay-5"><img src="app-planning.png" alt="Planning" /><p class="screenshot-label">Planning</p></div>
+    <div class="screenshot-card fade-up delay-6"><img src="app-settings.png" alt="Settings" /><p class="screenshot-label">Settings</p></div>
+  </div>
+</section>
+
+<!-- ── Phone Parade ────────────────────────────────────────────────── -->
+<section id="parade">
+  <div class="container">
+    <div class="parade-header fade-up">
+      <h2>Everything in one app.</h2>
+      <p>Built for real people — not a subscription fee.</p>
+    </div>
+
+    <div class="parade-phones">
+      <div class="parade-phone parade-side parade-left">
+        <div class="phone-notch"></div>
+        <img src="app-analytics.png" alt="Analytics" />
+      </div>
+      <div class="parade-phone parade-center parade-center-init">
+        <div class="phone-notch"></div>
+        <img src="app-home.png" alt="Home" />
+      </div>
+      <div class="parade-phone parade-side parade-right">
+        <div class="phone-notch"></div>
+        <img src="app-planning.png" alt="Planning" />
+      </div>
+    </div>
+
+    <div class="parade-labels">
+      <span class="side-label">Analytics</span>
+      <span class="center-label">Dashboard</span>
+      <span class="side-label">Planning</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── Features Grid ──────────────────────────────────────────────── -->
+<section id="features">
+  <div class="container">
+    <div class="section-header fade-up">
+      <h2>Powerful, but effortless.</h2>
+      <p>Everything you need — in an interface that gets out of your way.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card fade-up">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h3>Smart Analytics</h3>
+        <p>Beautiful charts that show exactly where your money goes.</p>
+      </div>
+      <div class="feature-card fade-up delay-1">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <h3>Savings Jars</h3>
+        <p>Create goals and watch your money grow towards them.</p>
+      </div>
+      <div class="feature-card fade-up delay-2">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+        </div>
+        <h3>Multiple Wallets</h3>
+        <p>Track cash, bank accounts, and cards in one place.</p>
+      </div>
+      <div class="feature-card fade-up delay-3">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        </div>
+        <h3>Category Breakdown</h3>
+        <p>Auto-sorted categories so nothing slips through.</p>
+      </div>
+      <div class="feature-card fade-up delay-4">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+        </div>
+        <h3>PWA — No App Store</h3>
+        <p>Install in seconds on iOS or Android.</p>
+      </div>
+      <div class="feature-card fade-up delay-5">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </div>
+        <h3>Export Your Data</h3>
+        <p>Download your full history as CSV anytime.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Deep Dive: Analytics ────────────────────────────────────────── -->
+<section class="deep-dive deep-dive-alt">
+  <div class="container">
+    <div class="deep-grid">
+      <div class="deep-phone fade-left">
+        <div class="deep-phone-glow"></div>
+        <div class="deep-phone-img">
+          <img src="app-analytics.png" alt="Analytics" />
+        </div>
+      </div>
+      <div class="deep-content fade-right">
+        <div class="deep-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h2>Understand your spending habits.</h2>
+        <p>Stop wondering where your paycheck went. Cashly breaks down spending into beautiful, easy-to-read categories.</p>
+        <ul class="check-list">
+          <li class="fade-right delay-1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <div><strong>Visual breakdowns</strong><span>Donut charts that make sense instantly.</span></div>
+          </li>
+          <li class="fade-right delay-2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <div><strong>Monthly comparisons</strong><span>See if you're spending more or less than last month.</span></div>
+          </li>
+          <li class="fade-right delay-3">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <div><strong>Spike detection</strong><span>Identify problem areas before they drain your wallet.</span></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Deep Dive: Planning ─────────────────────────────────────────── -->
+<section class="deep-dive">
+  <div class="container">
+    <div class="deep-grid">
+      <div class="deep-content fade-left">
+        <div class="deep-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <h2>Plan for the future, without the stress.</h2>
+        <p>Set budgets that stick. Create savings jars for your next trip, a gadget, or a rainy day fund.</p>
+        <ul class="check-list">
+          <li class="fade-left delay-1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <div><strong>Flexible Budgets</strong><span>Set limits per category and get notified when you're close.</span></div>
+          </li>
+          <li class="fade-left delay-2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <div><strong>Savings Jars</strong><span>Visual progress bars keep you motivated to save more.</span></div>
+          </li>
+          <li class="fade-left delay-3">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <div><strong>Guilt-free spending</strong><span>Know exactly how much is safe to spend today.</span></div>
+          </li>
+        </ul>
+      </div>
+      <div class="deep-phone fade-right">
+        <div class="deep-phone-glow"></div>
+        <div class="deep-phone-img" style="animation-delay:0.5s">
+          <img src="app-planning.png" alt="Planning" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Comparison ──────────────────────────────────────────────────── -->
+<section id="comparison" class="deep-dive-alt" style="border-top:none;">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="comparison-pill">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        The obvious choice
+      </div>
+      <h2>Why pay for your own data?</h2>
+      <p>Stop paying to track where your money goes.</p>
+    </div>
+
+    <div class="comparison-table fade-up">
+      <div class="table-head">
+        <div>Features</div>
+        <div class="cashly-col">Cashly</div>
+        <div class="other-col">Others</div>
+      </div>
+      <div class="table-row fade-up delay-1">
+        <div class="feature-name">Monthly Cost</div>
+        <div class="cashly-val"><span class="cashly-text">$0 forever</span></div>
+        <div class="other-val">~$8–12/mo</div>
+      </div>
+      <div class="table-row fade-up delay-2">
+        <div class="feature-name">Ad-Free</div>
+        <div class="cashly-val"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+        <div class="other-val">Paid only</div>
+      </div>
+      <div class="table-row fade-up delay-3">
+        <div class="feature-name">Unlimited Transactions</div>
+        <div class="cashly-val"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+        <div class="other-val">Limited</div>
+      </div>
+      <div class="table-row fade-up delay-4">
+        <div class="feature-name">CSV Export</div>
+        <div class="cashly-val"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+        <div class="other-val">Paid only</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Install Guide ───────────────────────────────────────────────── -->
+<section id="install">
+  <div class="container">
+    <div class="section-header fade-up">
+      <h2>Install in 60 seconds.</h2>
+      <p>No app store needed — install Cashly directly from your browser.</p>
+    </div>
+
+    <div class="install-grid">
+      <!-- Left Column: Steps -->
+      <div class="install-text-col fade-left delay-1">
+        <div class="install-tabs">
+          <button class="tab-btn active" data-platform="ios">
+            <svg style="display:inline;width:14px;height:14px;margin-right:5px;vertical-align:middle" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11"/></svg>
+            iOS
+          </button>
+          <button class="tab-btn" data-platform="android">
+            <svg style="display:inline;width:14px;height:14px;margin-right:5px;vertical-align:middle" viewBox="0 0 24 24" fill="currentColor"><path d="M17.523 15.341a6.5 6.5 0 10-11.046 0L3 20h18l-3.477-4.659zM12 2a1 1 0 011 1v1a1 1 0 01-2 0V3a1 1 0 011-1z"/></svg>
+            Android
+          </button>
+        </div>
+
+        <div id="steps-list" class="steps-list"></div>
+
+        <div class="install-nav">
+          <button id="back-btn" class="btn btn-outline" style="height:2.4rem;padding:0 1.2rem;font-size:0.85rem">Back</button>
+          <button id="next-btn" class="btn btn-outline" style="height:2.4rem;padding:0 1.2rem;font-size:0.85rem">Next</button>
+          <span style="font-size:0.8rem;color:var(--muted);margin-left:0.5rem">Step <span id="step-current">1</span> of <span id="step-total">5</span></span>
+        </div>
+
+        <div style="margin-top:2.5rem" class="install-cta-wrap">
+          <a href="https://sidhhrana.github.io/Cashly/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-pill">
+            Open Cashly Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <p style="margin-top:0.75rem;font-size:0.8rem;color:var(--muted)">Free forever. No account required.</p>
+        </div>
+      </div>
+
+      <!-- Right Column: Visual Animation -->
+      <div class="install-visual-col fade-right delay-2">
+        <div class="tutorial-phone">
+          <div class="phone-notch"></div>
+          
+          <div id="mock-browser" class="mock-browser platform-ios step-0">
+            <!-- Common Header -->
+            <div class="mb-header">
+              <div class="mb-url"><span class="mb-url-text"></span></div>
+              <div class="mb-dots">
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+              </div>
+            </div>
+
+            <!-- Common Body (Fake App View) -->
+            <div class="mb-body">
+              <div class="mb-logo">
+                <svg width="40" height="40" viewBox="0 0 32 32" fill="none">
+                  <rect width="32" height="32" rx="8" fill="#22c55e" fill-opacity="0.12"/>
+                  <path d="M16 6V26" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M21 11.5C21 9.567 18.761 8 16 8C13.239 8 11 9.567 11 11.5C11 13.433 13.239 15 16 15C18.761 15 21 16.567 21 18.5C21 20.433 18.761 22 16 22C13.239 22 11 20.433 11 18.5" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="mb-title">Cashly</div>
+              <div class="mb-subtitle">Your wealth, simplified.</div>
+            </div>
+
+            <!-- iOS Specific: Bottom Bar & Share Sheet -->
+            <div class="mb-bottom-bar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+            </div>
+            
+            <div class="mb-ios-sheet">
+              <div class="sheet-handle"></div>
+              <div class="sheet-item">Copy Link</div>
+              <div class="sheet-item">Add to Reading List</div>
+              <div class="sheet-item highlight-item">Add to Home Screen</div>
+              <div class="sheet-item">Find on Page</div>
+            </div>
+
+            <div class="mb-ios-add-screen">
+              <div class="add-header">
+                <span class="cancel-text">Cancel</span>
+                <strong>Add to Home</strong>
+                <span class="add-text highlight-item">Add</span>
+              </div>
+              <div class="add-preview">
+                <div class="add-icon">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#22c55e" fill-opacity="0.2"/><path d="M16 6V26" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/><path d="M21 11.5C21 9.567 18.761 8 16 8C13.239 8 11 9.567 11 11.5C11 13.433 13.239 15 16 15C18.761 15 21 16.567 21 18.5C21 20.433 18.761 22 16 22C13.239 22 11 20.433 11 18.5" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <div class="add-details">
+                  <div class="add-name">Cashly</div>
+                  <div class="add-url">https://sidhhrana.github...</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Android Specific: Dropdown & Popup -->
+            <div class="mb-android-menu">
+              <div class="menu-item">New tab</div>
+              <div class="menu-item">History</div>
+              <div class="menu-item">Downloads</div>
+              <div class="menu-item highlight-item">Add to Home screen</div>
+              <div class="menu-item">Settings</div>
+            </div>
+
+            <div class="mb-android-popup">
+              <div class="popup-title">Add to Home screen?</div>
+              <div class="popup-preview">
+                <div class="add-icon">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#22c55e" fill-opacity="0.2"/><path d="M16 6V26" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/><path d="M21 11.5C21 9.567 18.761 8 16 8C13.239 8 11 9.567 11 11.5C11 13.433 13.239 15 16 15C18.761 15 21 16.567 21 18.5C21 20.433 18.761 22 16 22C13.239 22 11 20.433 11 18.5" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                Cashly
+              </div>
+              <div class="popup-actions">
+                <span>Cancel</span>
+                <span class="highlight-item">Add</span>
+              </div>
+            </div>
+
+            <!-- The pulsing tap indicator -->
+            <div class="mb-tap"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ─────────────────────────────────────────────────────────── -->
+<section id="cta">
+  <div class="container">
+    <div class="cta-card fade-up">
+      <h2>Take control of your money <span class="text-gradient-green">today.</span></h2>
+      <p>No credit card. No hidden fees. Just a beautiful, powerful app.</p>
+      <a href="https://sidhhrana.github.io/Cashly/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-pill">
+        Get Cashly Free
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <div class="cta-chips">
+        <span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          iOS
+        </span>
+        <span class="cta-dot"></span>
+        <span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          Android
+        </span>
+        <span class="cta-dot"></span>
+        <span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          100% Free
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ──────────────────────────────────────────────────────── -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+          <rect width="32" height="32" rx="8" fill="#22c55e" fill-opacity="0.12"/>
+          <path d="M16 6V26" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+          <path d="M21 11.5C21 9.567 18.761 8 16 8C13.239 8 11 9.567 11 11.5C11 13.433 13.239 15 16 15C18.761 15 21 16.567 21 18.5C21 20.433 18.761 22 16 22C13.239 22 11 20.433 11 18.5" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Cashly
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="mailto:iamsidhh@gmail.com">Contact</a>
+      </div>
+      <div class="footer-copy">© 2026 Cashly. Built for your wealth.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
